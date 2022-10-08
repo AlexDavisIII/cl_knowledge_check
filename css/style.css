@@ -335,13 +335,18 @@ input {
     margin-top: 5px;
     border-radius: 5px;
     padding:10px
-    
+}
+
+.input-items input{
+    width: 300px;
+    text-align: center;
 }
 
 textarea{
-    margin-top: 15px;
+    margin-top: 5px;
     width: 320px;
     height: 150px;
+    text-align:center;
 }
     
 .contact-message h3{
