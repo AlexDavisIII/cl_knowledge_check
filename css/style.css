@@ -385,17 +385,35 @@ flex-direction: column;
 @media only screen and (min-width: 320px) {
 
 
+}
+
+@media only screen and (max-width: 480px) {
+
+.projects-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
-@media only screen and (min-width: 480px) {
+.social-media{
+    flex-direction: column;
+    align-content: center;
+}
 
 
 
 }
 
 @media only screen and (min-width: 768px) {
-	
+
+
     .projects-content {
         flex-direction: row;
         justify-content: center;
